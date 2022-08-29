@@ -1,1 +1,1001 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>星云星辰科技</title>
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/switch.js"></script>
+<script src="js/js.js"></script>
+<style>
+/*.head_div{background-color:rgba(220,38,38,0.2);}*/
+  html{overflow: hidden;}
+  
+</style>
+</head>
+<body>
+<!--<<div class="fixed_r">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+div class="top">
+ <img src="./images/logob.png">
+</div> -->
+<div class="head" style="background-color:rgba(11,8,7,0.3)">
+        <a href="index.html" class="logo">
+            <img src="./images/logoxingyunxc1.svg" alt="星云星辰信息经验丰富,公司专注于高品质网站建设,网站制作,企业网站建设,提供权威专业的互联网品牌网站建设与策划,鼎力为客户提供优质的建站服务"/>
+        </a>
+        <ul>
+            <li><a href="index.html" class="active">星云<br /><span>星云</span></a></li>
+              <li class="nav_num1"><a style="color:white">星辰<br /><span>星辰</span></a></li>
+              <li class="nav_num2"><a style="color:white">服务<br /><span>服务</span></a></li>
+              <li class="nav_num4"><a style="color:white">我们<br /><span>我们</span></a></li>
+              <li class="nav_num3"><a style="color:white">案例<br /><span>案例</span></a></li>
+              <li class="nav_num5"><a style="color:white">合作<br /><span>合作</span></a></li>
+              <li class="nav_num6"><a style="color:white">联系<br /><span>联系</span></a></li>
+        </ul>
+        <div class="hotline">
+            <a href="tel:18848246448">
+              <img src="./images/dianhua1.svg" alt="" />
+                <span style="color:white">18848246448</span>
+            </a>
+        </div>
+        <div class="xiangying_nav"></div>
+      </div>
+      <script>
+        $('.head ul li a').hover(function(){
+          $(this).stop().animate({'margin-top':'-30px'},200)
+        },function(){
+          $(this).stop().animate({'margin-top':'0px'},200)
+        })
+      </script>
+      <div class=" header">
+          <a href="index.html" class="logo">
+              <img src="./images/logoxingyunxc1.svg" alt="星云星辰信息经验丰富,公司专注于高品质网站建设,网站制作,企业网站建设,提供权威专业的互联网品牌网站建设与策划,鼎力为客户提供优质的建站服务"/>
+          </a>
+          <ul>
+              <li><a href="index.html" class="active">星云<br /><span>星云</span></a></li>
+              <li class="nav_num1"><a>星辰<br /><span>星辰</span></a></li>
+              <li class="nav_num2"><a>服务<br /><span>服务</span></a></li>
+              <li class="nav_num4"><a>我们<br /><span>我们</span></a></li>
+              <li class="nav_num3"><a>案例<br /><span>案例</span></a></li>
+              <li class="nav_num5"><a>合作<br /><span>合作</span></a></li>
+              <li class="nav_num6"><a>联系<br /><span>联系</span></a></li>
+          </ul>
+          <div class="hotline">
+             <a href="tel:13568981864">
+ <img src="./images/dianhua1.svg" alt="" />
+              <span>13568981864</span>
+             </a>
+          </div>
+          <div class="xiangying_nav"></div>
+      </div>
 
+      <script>
+        $(function(){
+          $('.xiangying_nav').toggle(
+              function(){
+                $('.head ul,.header ul').css('right','0')
+              },
+              function(){
+                $('.head ul,.header ul').css('right','-67px')
+              }
+            )
+        })
+        $('.header ul li a').hover(function(){
+          $(this).stop().animate({'margin-top':'-30px'},200)
+        },function(){
+          $(this).stop().animate({'margin-top':'0px'},200)
+        })
+      </script>
+<div class="num_box">
+  <div class="num" id="num_0">
+    <div class="mask">
+      <div id="slideBox" class="slideBox">
+        <div class="hd">
+          <ul><li></li><li></li><li></li></ul>
+        </div>
+        <div class="bd">
+          <ul>
+            <!-- <li>
+              <div class="grid"></div>
+              <div class="hlogo">
+                <hgroup>
+                  <h3>2009-2016</h3>
+                  <h2>#</h2>
+                  <h4>#</h4>
+                  <h5><a href="list-case.html">案例</a></h5>
+                </hgroup>
+              </div>
+            </li> -->
+            <li class="banner1">
+              <div class="fangan" id="a3">
+                <hgroup>
+                	<h3><span>&nbsp</span></h3><h3><span>&nbsp</span></h3>
+                  <h3><span>Industry project solutions</span></h3>
+                  <h2><span>行业项目解决方案</span></h2>
+                  <h6></h6>
+                  <h4><span>需求挖掘 - 需求分析 - 产品设计 - UI/UE设计</span></h4>
+                  <!--<h5><a href="list-case.html">更多</a></h5>-->
+                </hgroup>
+              </div>
+            </li>
+            <li>
+              <div>
+                <div class="fengxian" id="a1">
+                  <div>
+                    <img src="./images/fengxian1.png" alt="" />
+                    <hgroup>
+                    	<!-- style="color:white" -->
+                      <h3 >专注APP开发</h3>
+                      <h2>移动互联网专家</h2>
+                      <h4>ios/Android</h4>
+                    </hgroup>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="banner3">
+              <!-- <div class="six" id="a2">
+                <div>
+                  <img src="./images/six2.png" alt="" class="sixb" />
+                  <img src="./images/six1.png" alt="" class="sixa" />
+                  <hgroup>
+                    <h3>全方位服务<br/>灵活掌握项目进程</h3>
+                    <h2>N对1</h2>
+                    <h4>环绕形团队 专业研发团队<br />Surrounding team Professional R&D team
+</h4>
+                  </hgroup>
+                </div>
+              </div> -->
+              <div class="another">
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+      <script type="text/javascript">
+        // 轮播
+        $(".slideBox").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,
+          startFun:function(i,c){
+          del();
+          // switch(i){
+          //       case 0:
+          //           break;
+          //       case 1:
+          //           $("#a1").addClass('animation1');
+          //           break;
+          //       case 2:
+          //           $("#a2").addClass('animation2');
+          //           break;
+          //       case 3:
+          //           $(".banner1 #a3").addClass('animation3');
+          //           break;
+          //       default:break;
+          //     }
+          switch(i){
+                case 0:
+                    $(".banner1 #a3").addClass('animation3');
+                    break;
+                case 1:
+                    $("#a1").addClass('animation1');
+                    break;
+                case 2:
+                    $(".banner3 #a2").addClass('animation2');
+                    $(".banner3 .another").addClass('animation2_1');
+                    break;
+                default:break;
+              }
+          }
+        });
+      </script>
+      <script src="./js/jquery.easing.min.js" type="text/javascript"></script>
+      <script src="js/banner-1.js"></script>
+    </div>
+  </div>
+  <div class="num" id="num_1">
+    <div class="server">
+        <ul class="server_ul">
+            <li>
+                <div class="server_cont">
+                    <div class="server_img server_img1">
+                        <img src="./images/pingban.png" alt="" class="sho"/>
+                        <img src="./images/pingban1.png" alt="" class="hid"/>
+                    </div>
+                    <p>APP定制开发</p>
+                    <div class="server_intro">
+					Customization development of
+					<h1>of app </h1> 
+                        
+						<!--<h3><span>数十项搜索引擎优化指标,让网站变成营销利器</span><h3> -->
+                    </div>
+                </div>
+                <div class="server_mask">
+                  <div class="server_mask_div"></div>
+                </div>
+                <img src="./images/serv3.png" alt="" />
+            </li>
+            <li>
+                <div class="server_cont">
+                    <div class="server_img server_img2">
+                        <img src="./images/xiaochengxu.png" alt=""  class="sho"/>
+                        <img src="./images/xiaochengxu1.png" alt="" class="hid"/>
+                    </div>
+                    <p>小程序开发</p>
+                    <div class="server_intro">
+					Small Program development
+                    </div>
+                </div>
+                <div class="server_mask">
+                  <div class="server_mask_div"></div>
+                </div>
+                <img src="./images/serv2.png" alt="" />
+            </li>
+            <li>
+                <div class="server_cont">
+                    <div class="server_img server_img3">
+                        <img src="./images/diannao1.png" alt=""  class="sho"/>
+                        <img src="./images/diannao.png" alt="" class="hid"/>
+                    </div>
+                    <p>网站开发</p>
+                    <div class="server_intro">
+                   <h1><span>Website development</span><h1>
+						<h6></h6>
+                    </div>
+                </div>
+                <div class="server_mask">
+                  <div class="server_mask_div"></div>
+                </div>
+                <img src="./images/serv1.png" alt="" />
+            </li>
+            <li>
+                <div class="server_cont">
+                    <div class="server_img">
+                        <img src="./images/weixin.png" alt=""  class="sho"/>
+                        <img src="./images/weixin1.png" alt="" class="hid"/>
+                    </div>
+                    <p>微信开发</p>
+                    <div class="server_intro">
+                       Wechat public number
+                    </div>
+                </div>
+                <div class="server_mask">
+                  <div class="server_mask_div"></div>
+                </div>
+                <img src="./images/serv5.png" alt="" />
+            </li>
+            <li>
+                <div class="server_cont">
+                    <div class="server_img">
+                        <img src="./images/dp.png" alt=""  class="sho"/>
+                        <img src="./images/dp1.png" alt="" class="hid"/>
+                    </div>
+                    <p>H5/响应式开发</p>
+                    <div class="server_intro">
+                     H5 responsive development
+                    </div>
+                </div>
+                <div class="server_mask">
+                  <div class="server_mask_div"></div>
+                </div>
+                <img src="./images/serv4.png" alt="" />
+            </li>
+        </ul>
+    </div>
+  </div>
+  <script>
+    $('.server ul li').hover(function(){
+        $(this).find('.server_mask').stop().animate({height:'100%'},'slow')
+    },function(){
+        $(this).find('.server_mask').stop().animate({height:'0%'})
+    })
+  </script>
+  <div class="num" id="num_2">
+    <div class="case">
+        <div class="case-top width_1000">
+            <div class="case-top-left">
+                <p class="case-top-left-top">Our Works</p>
+                <p class="case-top-left-bottom">有追求，有坚持</p>
+            </div>
+            <div class="case-top-right">
+                <span></span><sup>+</sup>
+            </div>
+        </div>
+        <div class="case_ul_wrap">
+        <ul class="case_ul">
+            <li>
+                <a href="#">
+                    <div class="show">
+                        <img src="./images/icons.png" alt="" />
+                    </div>
+                    <img src="./images/case01.jpg" alt="" />
+                    <div class="auto">
+                        <h4>产品设计 </h4>
+                        <h4>PRODUCT DESIGN</h4>
+                        <span>根据用户需求我们将会定制专属的需求方案以及产品设计</span>
+                        <div class="auto_mask"></div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="case_ul">
+            <li>
+                <a href="#">
+                    <div class="show">
+                        <img src="./images/icons.png" alt="" />
+                    </div>
+                    <img src="./images/case02.jpg" alt="" />
+                    <div class="auto">
+                        <h4>技术定制</h4>
+                        <h4>TECHNOLOGY CUSTOMIZAYION</h4>
+                        <span>我们运用最先进的技术 为您定制最优质的产品</span>
+                        <div class="auto_mask"></div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <ul class="case_ul">
+            <li>
+                <a href="#">
+                    <div class="show">
+                        <img src="./images/icons.png" alt="" />
+                    </div>
+                    <img src="./images/case03.jpg" alt="" />
+                    <div class="auto">
+                        <h4>售后维护</h4>
+                        <h4>AFTER SALES MAINTENANCE</h4>
+                        <span>较长周期的免费售后技术维护 帮助您解决后顾之忧</span>
+                        <div class="auto_mask"></div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        </div>
+
+        <div class="teachshow xiangying_anli">
+          <div id="teach" class="mr_frbox1">
+            <img class="mr_frBtnL prev" src="./images/prev.png">
+            <div class="mr_frUl1">
+              <ul>
+                <li>
+                    <a href="#">
+                        <div class="show">
+                            <img src="./images/icons.png" alt="" />
+                        </div>
+                        <img src="./images/case01.jpg" alt="" />
+                        <div class="auto">
+                            <h4>产品设计</h4>
+                            <h4><span>PRODUCT DESIGN</span></h4>
+                            <span>根据用户需求我们将会定制专属的需求方案以及产品设计</span>
+                            <div class="auto_mask"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="show">
+                            <img src="./images/icons.png" alt="" />
+                        </div>
+                        <img src="./images/case02.jpg" alt="" />
+                        <div class="auto">
+                             <h4>技术定制</h4>
+                        <h4>TECHNOLOGY CUSTOMIZAYION</h4>
+                        <span>我们运用最先进的技术 为您定制最优质的产品</span>
+                            <div class="auto_mask"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="show">
+                            <img src="./images/icons.png" alt="" />
+                        </div>
+                        <img src="./images/case03.jpg" alt="" />
+                        <div class="auto">
+                            <h4>售后维护</h4>
+                        <h4>AFTER SALES MAINTENANCE</h4>
+                        <span>较长周期的免费售后技术维护 帮助您解决后顾之忧</span>
+                            <div class="auto_mask"></div>
+                        </div>
+                    </a>
+                </li>
+              </ul>
+              </div>
+              <img class="mr_frBtnR next" src="./images/next.png">
+          </div>
+        </div>
+        <script language="javascript">
+          jQuery(".mr_frbox1").slide({titCell:"",mainCell:".mr_frUl1 ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:1});
+        </script>
+
+
+
+
+
+        <!-- <div class="case-bottm"><a href="list-case.html" style="display:block;width:100%;height:100%;"></a></div> -->
+    </div>
+  </div>
+  <div class="num" id="num_3">
+    <div class="team width_1000">
+        <div class="title team-title">
+            <img src="./images/women.png" alt="" />
+        </div>
+    </div>
+    <div class="teachshow">
+      <div id="teach" class="mr_frbox">
+        <img class="mr_frBtnL prev" src="./images/prev.png">
+        <div class="mr_frUl">
+          <ul>
+            <li>
+              <a href="#">
+                  <img src="./images/lc1.png" />
+                  <img src="./images/lc.png" />
+              </a>
+              <div>
+                <h4>移动互联网</h4>
+                <p>应用解决方案服务商
+                  <br />
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp——借助您的创造力和我们的创新理念，为您定制专属于您的互联网应用解决方案</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/analysis1.png" />
+                  <!-- <img src="./images/analysis.png" />  -->
+              </a>
+              <div>
+               <h4>高级产品经理</h4>
+                <p>对接需求分析 清理开发需求<br />输出框架图、流程图、原型设计图、PRD文档等</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/whq1.png" />
+                  <!-- <img src="./images/whq.png" /> -->
+              </a>
+              <div>
+                <h4>需求定制设计</h4>
+                <p>根据客户需求量身定制开发方案<br />明确费用明细</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/xm1.png" />
+                  <!-- <img src="./images/xm.png" /> -->
+              </a>
+              <div>
+                <h4>高级视觉设计师</h4>
+                <p>UX/UE交互设计-UI视觉设计<br />从多角度出发，提供多套UI风格选择，精心布局，提供用户视觉体验</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/lqk1.png" />
+                  <!-- <img src="./images/lqk.png" /> -->
+              </a>
+              <div>
+                <h4>研发团队</h4>
+                <p>专业开发者进行架构设计，功能开发，第三方服务对接调试，实现左右需求<br />一个贩卖智慧的商人</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/myl1.png" />
+                  <!-- <img src="./images/myl.png" /> -->
+              </a>
+              <div>
+                <h4>测试调试</h4>
+                <p>内部多伦兼容测试<br />性能测试、漏洞修复、客户验收测试、优化满意再上线</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/lw1.png" />
+                  <!-- <img src="./images/lw.png" /> -->
+              </a>
+              <div>
+                <h4>售后技术维护</h4>
+                <p>较长周期的售后技术维护<br />让您更加清楚方便的使用产品免除后顾之忧</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/yjl1.png" />
+                  <!-- <img src="./images/yjl.png" /> -->
+              </a>
+              <div>
+                <h4>一站式的品牌数字服务体系</h4>
+                <p>助力品牌全流程价值提升<br />无论是创建者还是使用者，我们帮您一路思考周全</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/zwn1.png" />
+                  <!-- <img src="./images/zwn.png" /> -->
+              </a>
+              <div>
+                <h4>良好的用户体验</h4>
+                <p>运用先进的技术为用户提供良好的产品用户体验<br />是我们永恒的追求</p>
+              </div>
+            </li>
+            <li>
+              <a href="#">
+                  <img src="./images/jl1.png" />
+                  <!-- <img src="./images/jl.png" /> -->
+              </a>
+              <div>
+                <h4>优秀的产品技术</h4>
+                <p>一站式的品牌数字服务体系<br />帮您一路思考周全</p>
+              </div>  
+            </li>
+          </ul>
+          </div>
+          <img class="mr_frBtnR next" src="./images/next.png">
+      </div>
+    </div>
+  </div>
+  <script language="javascript">
+    jQuery(".mr_frbox").slide({titCell:"",mainCell:".mr_frUl ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:4});
+  </script>
+  <div class="num" id="num_4">
+    <div class="news">
+        <div class="news-cont width_1000">
+            <div class="title news-title" >
+                <img src="./images/news.png" alt=""/>
+            </div>
+        </div>
+        <div class="news-list news-list-in">
+            <a href="#">
+              <img src="./images/PC.jpg" alt="" />
+              <div>
+                <span><sub><img src="./images/xitong.png"></sub></span>
+                <p>教育系统 社交系统 O2O系统 电商系统 融媒系统</p>
+              </div>
+            </a>
+            <a href="#">
+              <img src="./images/shejiaodianshang.jpeg" alt="" />
+              <div>
+                <span><img src="./images/shejiao.png"></span>
+                <p>O2O社交类、电商类产品</p>
+              </div>
+            </a>
+            <a href="#">
+              <img src="./images/jinrong.jpg" alt="" />
+              <div>
+                <span><img src="./images/zhibo.png"></span>
+                <p>直播小视频</p>
+              </div>
+            </a>
+            <a  href="#">
+              <img  src="./images/news1.jpg" alt="" />
+              <div>
+                <span><img src="./images/jiaoyu2.png"></span>
+                <p>教育类产品 全面覆盖各个端</p>
+              </div>
+            </a>
+            <a  href="#">
+              <img src="./images/news3.jpg" alt="" />
+              <div>
+                <span><img src="./images/xitongguanli.png"></span>
+                <p>CMS系统</p>
+              </div>
+            </a>
+        </div>
+        <!-- <div class="case-bottm"><a href="list-news.html" style="display:block;width:100%;height:100%;"></a></div> -->
+    </div>
+  </div>
+  <div class="num" id="num_5">
+    <div class="cust">
+        <div class="title cust-title width_1000">
+            <img src="./images/cust.png" alt="" />
+        </div>
+      <div class="pic-cont">
+        <!-- <div id="teach" class="mr_frbox ml_frbox">
+          <img class="mr_frBtnL prev" src="./images/prev.png">
+          <div class="mr_frUl">
+            <ul>
+              <li>
+                <img src="./images/cust1.jpg" alt="" />
+                <img src="./images/cust2.jpg" alt="" />
+                <img src="./images/cust3.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/cust4.jpg" alt="" />
+                <img src="./images/cust5.jpg" alt="" />
+                <img src="./images/cust6.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/cust7.jpg" alt="" />
+                <img src="./images/cust8.jpg" alt="" />
+                <img src="./images/cust9.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/cust10.jpg" alt="" />
+                <img src="./images/cust11.jpg" alt="" />
+                <img src="./images/cust12.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/cust13.jpg" alt="" />
+                <img src="./images/cust14.jpg" alt="" />
+                <img src="./images/cust15.jpg" alt="" />
+              </li>
+            </ul>
+            </div>
+            <img class="mr_frBtnR next" src="./images/next.png">
+        </div> -->
+        <div class="v_out v_out_p">
+          <div class="prev"><a href="javascript:void(0)"></a></div>
+          <div class="v_show">
+            <div class="v_cont">
+              <ul>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo1.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo2.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo3.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo4.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo5.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo6.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo7.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo8.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo9.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo10.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo1.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo2.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo3.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo4.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo5.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo6.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo7.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo8.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo9.jpg" alt="" />
+                    </span>
+                    <span>
+                      <img src="./images/logo10.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <script type="text/javascript" src="js/gundong.js"></script>
+            <script language="javascript">
+              jQuery(".ml_frbox").slide({titCell:"",mainCell:".mr_frUl ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:5});
+              // $('.pic-cont ul li span').hover(function(){
+              //   $(this).children().first().hide().siblings().show();
+              // },function(){
+              //   $(this).children().first().show().siblings().hide();
+              // })
+            </script>
+            <div class="v_cont1">
+              <ul>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo1.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo2.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo3.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo4.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo5.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo6.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo7.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo8.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo9.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo10.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <!-- <span>
+                      <img src="./images/logo11.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo12.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo13.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo14.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo15.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo16.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo17.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo18.jpg" alt="" />
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      <img src="./images/logo19.jpg" alt="" />
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="./images/logo20.jpg" alt="" />
+                    </span> -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <script type="text/javascript" src="js/gundong1.js"></script>
+            <script language="javascript">
+              jQuery(".ml_frbox").slide({titCell:"",mainCell:".mr_frUl ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:5});
+            </script>
+          </div>
+          <div class="next"><a href="javascript:void(0)"></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="num" id="num_6">
+    <div class="cont">
+        <div class="cont-cont width_1000">
+            <div class="title cust-title">
+                <img src="./images/cont.png" alt="" />
+            </div>
+            <div class="cont-left">
+              <div class="connect">
+                  <img src="./images/connect.png" alt="" />
+                  <div>
+                      电话<br />
+                      18848246448 / 13568981864
+                  </div>
+              </div>
+              <div class="address">
+                  <img src="./images/address.png" alt="" />
+                  <div>
+                      地址<br />
+                      四川省成都市天府新区
+                  </div>
+              </div>
+              <div class="email">
+                  <img src="./images/email.png" alt="" />
+                  <div>
+                      邮箱<br />
+                      718558542@qq.com
+                  </div>
+              </div>
+              <div class="email">
+                  <img src="./images/weixin2.png" alt="" />
+                  <div>
+                      微信<br />
+                      xingyunxingchen3344
+                  </div>
+              </div>
+            </div>
+            <img src="./images/map.png" alt="" class="cont-right"/>
+
+
+
+            <div style="text-align: center;width: 70%;margin:  0 auto;font-size:5px" class="email">
+                    Copyright © 蜀ICP备18038454号-2 成都星云星辰科技有限公司 版权所有
+            </div>
+            </div>
+        </div>
+
+
+
+    </div>
+  </div>
+
+ 
+  
+
+<!-- 联系侧拉 -->
+<div class="xuanfu rel">
+    <div class="xf_top">
+    <div class="xf_top_k rel" onclick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=718558542&site=qq&menu=yes','_blank')">
+      <!-- <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=718558542&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:718558542:52" alt="嗨喽，您好！我是星云星辰科技客户经理小刘，请问您有什么需求？" title="嗨喽，您好！我是星云星辰科技客户经理小刘，请问您有什么需求？"/></a> -->
+            <img src="./images/xftb1.png" height="26" width="29" class="xftb db auto abs trans_fast">
+            <div class="xf_top_k_nr abs">
+                <div class="xf_top_k1">
+                    <div class="xf_topknrr abs xf_nr1">
+                        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=718558542&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:718558542:52" alt="嗨喽，亲 您好！我是星云星辰科技的客户经理 小刘，请问您有什么需求？" title="嗨喽，亲 您好！我是星云星辰科技的客户经理 小刘，请问您有什么需求？"/>
+在线咨询
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xf_top_k rel">
+            <img src="./images/xftb2.png" height="26" width="29" class="xftb db auto abs trans_fast">
+            <div class="xf_top_k_nr abs">
+                <div class="xf_top_k1">
+                    <div class="xf_topknrr abs xf_nr2">
+                        13568981864<br>18848246448
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xf_top_k rel">
+            <img src="./images/xftb3.png" height="26" width="29" class="xftb db auto abs trans_fast">
+            <div class="xf_top_k_nr abs">
+                <div class="xf_top_k1 xf_nr3">
+
+                    <div class="xf_topknrr abs xf_nr3">
+                        <img src="./images/liuyundan.jpeg" height="96" width="96" class="abs xf_ewm">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xf_top_k rel">
+            <img src="./images/xftb4.png" height="26" width="29" class="xftb db auto abs trans_fast">
+            <div class="xf_top_k_nr abs">
+                <div class="xf_top_k1">
+                    <div class="xf_topknrr abs xf_nr1">
+                        <span class="fhtop">返回顶部</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="xf_bot abs">
+        <div>
+            <div class="abs trans_fast"></div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+<input type="hidden" value="0" class="ddw">
+<input type="hidden" value="0" class="ddw2">
+
+
+
+</div>
+<script type="text/javascript" src="js/scroll.js" ></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js" ></script>
+<script type='text/javascript'>
+   (function(m, ei, q, i, a, j, s) {
+       m[i] = m[i] || function() {
+           (m[i].a = m[i].a || []).push(arguments)
+       };
+       j = ei.createElement(q),
+           s = ei.getElementsByTagName(q)[0];
+       j.async = true;
+       j.charset = 'UTF-8';
+       j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t';
+       s.parentNode.insertBefore(j, s);
+   })(window, document, 'script', '_MEIQIA');
+   _MEIQIA('entId', 152322);
+</script>
+</body>
+</html>
